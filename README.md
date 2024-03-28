@@ -61,7 +61,7 @@
 
 ## DataBase
 ### Interrelationships
-
+![image](https://github.com/estiHaker/Hadasim/assets/144729995/28ab25d1-b801-4d40-997e-8e9ffa39ca81)
 ### Manufacturer table
 ![tblManufacturer](https://github.com/estiHaker/Hadasim/assets/144729995/81c52ada-d509-41ca-ab2c-618f07c59b7d)
 ### Members table
@@ -71,6 +71,9 @@
 
 # project2
 ## I assumed that an input of a triangle width less than or equal to 3 is not received
-
+## running
+![run_pro2](https://github.com/estiHaker/Hadasim/assets/144729995/a5ca25b0-51b4-483f-adb5-1c4b175967c4)
 # project3
 ##
+![image](https://github.com/estiHaker/Hadasim/assets/144729995/7516161d-f54d-49e0-9203-71f17f586a69)
+
