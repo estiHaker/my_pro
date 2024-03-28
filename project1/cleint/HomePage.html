@@ -1,0 +1,74 @@
+<head> 
+    <meta charset='utf-8' />
+    <script src="HomePage.js"></script>
+    <link rel="stylesheet" type="text/css" href="HomePage.css">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body onload="start()">
+    <div id="main">
+
+<div id="member">
+ //members list
+<select onchange="showDetails()" id="selectMembers"></select>
+<div id="fromDetails">
+    <legend>details</legend>
+</div>
+</div>
+
+<div id="cud">
+//add member
+<div id="addMember">
+    <input id="nameAdd" type="text" placeholder="enter a name">
+    <input id="lastNameAdd" type="text" placeholder="enter a last name">
+    <input id="idAdd" type="text" placeholder="enter a id">
+    <input id="DobAdd" type="date">
+    <input id="addressAdd" type="text" placeholder="enter a address">
+    <input id="phoneAdd" type="text" placeholder="enter a phone">
+    <input id="mobilePhoneAdd" type="text" placeholder="enter a mobilePhone">
+    <button onclick="addMember()">add member</button>
+</div>
+//update member
+<div id="updateMember">
+    <select onchange="fill()" id="selectUpdateMembers"></select>
+    <input id="nameUpdate" type="text" >
+    <input id="lastNameUpdate" type="text">
+    <input id="idUpdate" type="text" >
+    <input id="DobUpdate" type="date">
+    <input id="addressUpdate" type="text">
+    <input id="phoneUpdate" type="text">
+    <input id="mobilePhoneUpdate" type="text" >
+    <input id="illUpdate" type="date">
+    <input id="recoveryUpdate" type="date" >
+    <p id="countVac"></p>
+
+    <button onclick="updateMember()">update member</button>
+</div>
+
+
+//delete member
+<div id="deleteMember">
+    <select  id="selectDeleteMembers"></select>
+    <button onclick="DeleteMember()">delete Member</button>
+</div>
+</div>
+
+
+<div id="vaccination">
+//add vaccination to a member
+    <div id="addVaccination">
+        <select id="selectManufacurer"></select>
+        <select id="selectMemberAddVac"></select>
+        <input id="dateAdd" type="date"> 
+        <button onclick="addVaccination()">add vaccination</button>
+    </div>
+    <button onclick="notVaccinated()">not Vaccinated</button>
+</div>
+<div>
+<button onclick="numOfIllEeveryday()">show</button>
+<canvas id="patientChart" width="600" height="400"></canvas>
+</div>
+    </div>
+    </div>
+</body>
