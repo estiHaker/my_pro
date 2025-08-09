@@ -76,5 +76,3 @@
 # project3
 ##
 ![image](https://github.com/estiHaker/Hadasim/assets/144729995/7516161d-f54d-49e0-9203-71f17f586a69)
-[AdministrativeIllnessCertificate.pdf](https://github.com/user-attachments/files/21702407/AdministrativeIllnessCertificate.pdf)
-
